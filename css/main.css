@@ -1,0 +1,31 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: Lato;
+}
+
+h1, h2 {
+	font-family: georgia;
+	text-transform: bold;
+}
+
+.header {
+	text-align: center;
+	background-color: snow;
+	position: fixed;
+	padding: 15px;
+}
+
+button {
+	width: 100%;
+}
+
+div.block {
+	display: inline-block;
+}
+
+img.img-responsive { 
+	width: 800px;
+}

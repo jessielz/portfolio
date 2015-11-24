@@ -1,0 +1,10 @@
+<div>
+	<h2>Photography</h2>
+	<p>Here are some photographs I've taken. (Not really. These are placeholders for my assignment.)</p>
+		<div ng-repeat = "image in data" style = "display: inline-block">
+			<div>
+				<img src = "{{image.url}}" title = "{{image.title}}" style = "padding: 10px" class = "img-responsive"></img>
+			</div>
+			<p class = "col-md-3"><i>{{image.title}}</i> ({{image.year}})</p>
+		</div>
+</div>
